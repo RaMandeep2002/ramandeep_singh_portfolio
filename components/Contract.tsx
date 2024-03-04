@@ -23,7 +23,7 @@ const Contract = ({ }: Props) => {
                 <div className='space-y-10'>
                     <div className='flex items-center space-x-5 justify-center'>
                         <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-                        <p className='text-2xl '>+91 123456789</p>
+                        <p className='text-2xl '>+91 9592935755</p>
                     </div>
                     <div className='flex items-center space-x-5 justify-center'>
                         <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
@@ -31,7 +31,7 @@ const Contract = ({ }: Props) => {
                     </div>
                     <div className='flex items-center space-x-5 justify-center'>
                         <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
-                        <p className='text-2xl '>abc@gmail.com</p>
+                        <p className='text-2xl '>ramandeepsingh1511@gmail.com</p>
                     </div>
                 </div>
             </div>
