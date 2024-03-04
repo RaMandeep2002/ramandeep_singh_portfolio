@@ -51,7 +51,7 @@ export default function About({ }: Props) {
                 }}
                 transition={{ duration: 1.2 }} className='space-y-10 px-0 md:px-10'>
                 <h4 className='text-4xl font-semibold'>Here is a <span className="underline decoration-dotted decoration-[#F4B96F] ">Little</span> Background</h4>
-                <p className='text-base'>Hello, I'm Ramandeep Singh, a proficient Blockchain Developer currently undergoing training at the Antire School of Blocktech. I've secured a position at Virtual IT Technology, showcasing expertise in programming languages such as Solidity , Hardhat, and React. Eager to contribute my skills to innovative blockchain solutions and technological advancements.</p>
+                <p className='text-base'>Hello, I&#39;m Ramandeep Singh, a proficient Blockchain Developer currently undergoing training at the Antire School of Blocktech. I&#39;ve secured a position at Virtual IT Technology, showcasing expertise in programming languages such as Solidity , Hardhat, and React. Eager to contribute my skills to innovative blockchain solutions and technological advancements.</p>
             </motion.div>
 
         </motion.div>
