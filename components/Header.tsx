@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 type Props = {};
 
-export default function Header({}: Props) {
+export default function Header({ }: Props) {
   return (
     <header className="sticky top-0 z-20 mx-auto flex max-w-7xl items-start justify-between p-5 xl:items-center">
       <motion.div
@@ -47,7 +47,7 @@ export default function Header({}: Props) {
           className="rounded-full hover:bg-blue-300"
         />
         <SocialIcon
-          url="https://linkedin.com/jaketrent"
+          url="https://www.linkedin.com/in/ramandeep-singh-849a121bb/"
           bgColor="transparent"
           className="rounded-full hover:bg-blue-300"
         />
