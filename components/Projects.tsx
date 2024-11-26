@@ -3,7 +3,7 @@ import React from "react";
 
 type Props = {};
 
-function Projects({}: Props) {
+function Projects({ }: Props) {
   const projects = [1, 2];
   return (
     <motion.div
@@ -19,7 +19,10 @@ function Projects({}: Props) {
       <div className="sanp-x scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 relative z-20 flex w-full snap-mandatory overflow-y-hidden overflow-x-scroll">
         {projects.map((project, i) => (
           <>
-            <div className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44 ">
+            <div
+              key={i} // Add a unique key here
+              className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44"
+            >
               <motion.img
                 initial={{ y: -300 }}
                 transition={{ duration: 1.2 }}
