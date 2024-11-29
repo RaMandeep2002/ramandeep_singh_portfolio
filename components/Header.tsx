@@ -47,11 +47,7 @@ export default function Header({ }: Props) {
           className="rounded-full hover:bg-blue-300"
         />
         <SocialIcon
-<<<<<<< HEAD
           url="https://www.linkedin.com/in/ramandeep-singh-849a121bb/"
-=======
-          url="www.linkedin.com/in/ramandeep-singh-849a121bb"
->>>>>>> version1.1
           bgColor="transparent"
           className="rounded-full hover:bg-blue-300"
         />
