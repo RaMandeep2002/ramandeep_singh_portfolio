@@ -14,7 +14,7 @@ function Experince({ }: Props) {
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Experince</h3>
 
       {/* <div className='w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-10 ' /> */}
-      <div className='w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[400px] -skew-y-12'/>
+      <div className='w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[400px] -skew-y-12' />
 
       <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
         {/* Experice */}
@@ -40,7 +40,7 @@ function Experince({ }: Props) {
           ]}
         />
         <ExperinceCard
-          image='https://dev.anryton.com/assets/images/footer-logo.svg'
+          image='https://i.postimg.cc/bJB4Pr1f/vit-logo-dark-1-1.png'
           title="Blockchain Devloper"
           company="Virtual IT Tech"
           skill={[
@@ -58,7 +58,7 @@ function Experince({ }: Props) {
             // "Summary Point 3"
           ]}
         />
-        <ExperinceCard
+        {/* <ExperinceCard
           image='https://dev.anryton.com/assets/images/footer-logo.svg'
           title="Blockchain Devloper"
           company="Virtual IT Tech"
@@ -76,7 +76,7 @@ function Experince({ }: Props) {
             // "Summary Point 2",
             // "Summary Point 3"
           ]}
-        />
+        /> */}
 
 
         {/* // <ExperinceCard /> */}

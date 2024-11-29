@@ -25,7 +25,7 @@ export default function Header({ }: Props) {
         className="flex flex-row items-center gap-2 "
       >
         {/* social Icon */}
-        <SocialIcon
+        {/* <SocialIcon
           url="https://facebook.com/raman-sardar"
           fgColor="white"
           bgColor="transparent"
@@ -40,14 +40,18 @@ export default function Header({ }: Props) {
           url="https://twitter.com/raman2002"
           bgColor="transparent"
           className="rounded-full hover:bg-blue-300"
-        />
+        /> */}
         <SocialIcon
           url="https://github.com/RaMandeep2002"
           bgColor="transparent"
           className="rounded-full hover:bg-blue-300"
         />
         <SocialIcon
+<<<<<<< HEAD
           url="https://www.linkedin.com/in/ramandeep-singh-849a121bb/"
+=======
+          url="www.linkedin.com/in/ramandeep-singh-849a121bb"
+>>>>>>> version1.1
           bgColor="transparent"
           className="rounded-full hover:bg-blue-300"
         />
