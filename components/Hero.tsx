@@ -10,7 +10,7 @@ type Props = {}
 
 export default function Hero({ }: Props) {
   const [text, count] = useTypewriter({
-    words: ["Hi, The Name's Ramandeep singh", "Guys-who-Loves-Coffee.sol", "<ButLovesToCodeMore />"],
+    words: ["Hi, My Name's Ramandeep singh", "Guys-who-Loves-Coffee.tsx", "<ButLovesToCodeMore />"],
     loop: true,
     delaySpeed: 1000,
 
@@ -47,7 +47,7 @@ export default function Hero({ }: Props) {
               stiffness: 100,
               restDelta: 0.001
             }
-          }} className='text-sm uppercase text-gray-500 tracking-[10px]'>BlockChain DevloPer</motion.h2>
+          }} className='text-sm uppercase text-gray-500 tracking-[10px]'>Full Stack DevloPer</motion.h2>
         <h1 className='text-5xl lg:text-6xl md:text-3xl *:font-semibold px-10'>
           <span className="mr-3">{text}<Cursor cursorColor='#F7AB0A' cursorStyle="_" /></span>
         </h1>
