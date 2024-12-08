@@ -36,3 +36,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 https://my-portfolio-raman-l671-fu9l712kg-ramandeep2002s-projects.vercel.app/
+
+https://my-portfolio-raman-l671.vercel.app/
+
