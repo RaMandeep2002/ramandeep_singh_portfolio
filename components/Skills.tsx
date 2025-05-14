@@ -18,6 +18,7 @@ const Skills = ({ }: Props) => {
     { image: "https://devicon-website.vercel.app/api/express/original.svg", technology: "Express", prof: 55 },
     { image: "https://devicon-website.vercel.app/api/mongodb/plain.svg", technology: "MongoDB", prof: 50 },
     { image: "https://devicon-website.vercel.app/api/redux/original.svg", technology: "Redux", prof: 75 },
+    { image: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg", technology: "Wordpress", prof: 25 },
     // { image: "https://i.postimg.cc/nL7RHSTN/Group-67387.png", technology: "Git", prof: 80 },
   ];
 

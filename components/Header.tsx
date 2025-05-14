@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 type Props = {};
 
-export default function Header({ }: Props) {
+export default function Header({}: Props) {
   return (
     <header className="sticky top-0 z-20 mx-auto flex max-w-7xl items-start justify-between p-5 xl:items-center">
       <motion.div
@@ -69,18 +69,20 @@ export default function Header({ }: Props) {
         }}
         className="flex cursor-pointer flex-row items-center text-gray-300"
       >
-        <SocialIcon
-          className="cursor-pointer"
-          network="email"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <p className="hidden text-sm uppercase text-gray-400 md:inline-flex ">
-          Get In Touch
-        </p>
+        {/* <div className="Contact">
+          <SocialIcon
+            className="cursor-pointer"
+            network="email"
+            fgColor="gray"
+            bgColor="transparent"
+          />
+          <p className="hidden text-sm uppercase text-gray-400 md:inline-flex ">
+            Get In Touch
+          </p>
+        </div> */}
 
         <a
-          href="https://drive.google.com/file/d/1LB76BmmkGn4pg2spJ0xGQJRdWXEasQh9/view?usp=drive_link"
+          href="https://drive.google.com/file/d/11o4WUVBhNopqDG1bYCR0yVBcxdOCGZAy/view?usp=sharing"
           className="downloadbutton ml-3 hidden text-sm uppercase text-red-400 md:inline-flex "
         >
           Download CV
