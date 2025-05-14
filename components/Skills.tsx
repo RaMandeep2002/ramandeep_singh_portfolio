@@ -11,13 +11,13 @@ const Skills = ({ }: Props) => {
     { image: "https://devicon-website.vercel.app/api/css3/original.svg", technology: "CSS3", prof: 80 },
     { image: "https://devicon-website.vercel.app/api/javascript/original.svg", technology: "JavaScript", prof: 85 },
     { image: "https://devicon-website.vercel.app/api/react/original.svg", technology: "React", prof: 75 },
+    { image: "https://devicon-website.vercel.app/api/typescript/plain.svg", technology: "TypeScript", prof: 70 },
     { image: "https://devicon-website.vercel.app/api/bootstrap/original.svg", technology: "Bootstrap", prof: 70 },
-    { image: "https://devicon-website.vercel.app/api/tailwindcss/plain.svg", technology: "Blockchain", prof: 65 },
-    { image: "https://devicon-website.vercel.app/api/nodejs/plain.svg", technology: "Solidity", prof: 60 },
-    { image: "https://devicon-website.vercel.app/api/express/original.svg", technology: "Web3.js", prof: 55 },
-    { image: "https://devicon-website.vercel.app/api/mongodb/plain.svg", technology: "Ethers.js", prof: 50 },
-    { image: "https://devicon-website.vercel.app/api/typescript/plain.svg", technology: "Node.js", prof: 70 },
-    { image: "https://devicon-website.vercel.app/api/redux/original.svg", technology: "TypeScript", prof: 75 },
+    { image: "https://devicon-website.vercel.app/api/tailwindcss/plain.svg", technology: "Tailwind css", prof: 65 },
+    { image: "https://devicon-website.vercel.app/api/nodejs/plain.svg", technology: "Nodejs", prof: 60 },
+    { image: "https://devicon-website.vercel.app/api/express/original.svg", technology: "Express", prof: 55 },
+    { image: "https://devicon-website.vercel.app/api/mongodb/plain.svg", technology: "MongoDB", prof: 50 },
+    { image: "https://devicon-website.vercel.app/api/redux/original.svg", technology: "Redux", prof: 75 },
     // { image: "https://i.postimg.cc/nL7RHSTN/Group-67387.png", technology: "Git", prof: 80 },
   ];
 
@@ -45,7 +45,7 @@ const Skills = ({ }: Props) => {
           <Skill
             key={index}
             image={skill.image}
-            // technolgy={skill.technology}
+            technology={skill.technology}
             prof={skill.prof}
           />
         ))}

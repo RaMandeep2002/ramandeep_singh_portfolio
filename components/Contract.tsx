@@ -25,10 +25,10 @@ const Contract = ({ }: Props) => {
                         <PhoneIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                         <p className='text-2xl '>+91 9592935755</p>
                     </div>
-                    <div className='flex items-center space-x-5 justify-center'>
+                    {/* <div className='flex items-center space-x-5 justify-center'>
                         <MapPinIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                         <p className='text-2xl '>#123, Street, Conutry</p>
-                    </div>
+                    </div> */}
                     <div className='flex items-center space-x-5 justify-center'>
                         <EnvelopeIcon className='text-[#F7AB0A] h-7 w-7 animate-pulse' />
                         <p className='text-2xl '>ramandeepsingh1511@gmail.com</p>
