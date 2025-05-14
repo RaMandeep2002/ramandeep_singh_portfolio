@@ -7,7 +7,7 @@ type Props = {};
 
 export default function Header({}: Props) {
   return (
-    <header className="sticky top-0 z-20 mx-auto flex max-w-7xl items-start justify-between p-5 xl:items-center">
+    <header className="sticky top-0 z-20 mx-auto flex max-w-7xl flex-wrap items-start justify-between p-4 md:p-5">
       <motion.div
         initial={{
           x: -500,
@@ -24,23 +24,6 @@ export default function Header({}: Props) {
         }}
         className="flex flex-row items-center gap-2 "
       >
-        {/* social Icon */}
-        {/* <SocialIcon
-          url="https://facebook.com/raman-sardar"
-          fgColor="white"
-          bgColor="transparent"
-          className="rounded-full hover:bg-blue-500"
-        />
-        <SocialIcon
-          url="https://instagram.com/_sardarji_15"
-          bgColor="transparent"
-          className="rounded-full from-fuchsia-600 to-pink-600    hover:bg-gradient-to-r"
-        />
-        <SocialIcon
-          url="https://twitter.com/raman2002"
-          bgColor="transparent"
-          className="rounded-full hover:bg-blue-300"
-        /> */}
         <SocialIcon
           url="https://github.com/RaMandeep2002"
           bgColor="transparent"
@@ -83,7 +66,7 @@ export default function Header({}: Props) {
 
         <a
           href="https://drive.google.com/file/d/11o4WUVBhNopqDG1bYCR0yVBcxdOCGZAy/view?usp=sharing"
-          className="downloadbutton ml-3 hidden text-sm uppercase text-red-400 md:inline-flex "
+          className="downloadbutton ml-3 text-sm uppercase text-red-400 md:inline-flex "
         >
           Download CV
         </a>

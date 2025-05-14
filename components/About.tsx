@@ -34,7 +34,7 @@ export default function About({ }: Props) {
                 viewport={{ once: false }}
                 transition={{ duration: 1.2 }}
                 src="https://i.postimg.cc/jj0My2Cr/20230602-092726-01-1.jpg"
-                className="mb-6 md:mb-0 flex-shrink-0 w-32 h-32 sm:w-54 sm:h-54 sm-top-10 md:w-64 md:h-96 md:top-5 xl:w-[500px] xl:h-[600px] rounded-full md:rounded-lg object-cover z-0"
+                className="sm:mb-0 md:mb-0 flex-shrink-0 w-32 h-32 sm:w-54 sm:h-54 sm-top-10 md:w-64 md:h-96 md:top-5 xl:w-[500px] xl:h-[600px] rounded-full md:rounded-lg object-cover z-0"
             />
 
             {/* Text Section */}
