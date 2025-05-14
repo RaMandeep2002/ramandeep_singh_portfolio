@@ -69,6 +69,7 @@ export default function Hero({ }: Props) {
           {/* <Link href="#Skills"><button className='heroButton'>Educattrmion</button></Link> */}
           <Link href="#Skills"><button className='heroButton'>Skills</button></Link>
           <Link href="#Projects"><button className='heroButton'>Projects</button></Link>
+          <Link href="#Contact"><button className='heroButton'>Contact Us</button></Link>
         </motion.div>
       </div>
     </div>
