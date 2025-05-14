@@ -10,15 +10,15 @@ function Projects({}: Props) {
       summary:
         "Developed a WordPress website using Elementor to promote awareness against hate activities. Integrated Contact Form 7 and eForm for seamless communication and data collection, ensuring a user-friendly and responsive design.",
       image:
-        "https://i.postimg.cc/3xV4Pwcy/Mask-group.png",
+        "https://i.postimg.cc/4NmZMxnM/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375-2.png",
     },
     {
       name: "Salmon Arm Taxi",
       summary:
         "I contributed to the development of the Salmon Arm Taxi project, a real-time taxi booking platform. My work focused on building scalable backend APIs with Node.js and TypeScript, implementing driver-vehicle management, fare calculation, and shift scheduling features. I also integrated Redux Toolkit in the frontend using Next.js to manage real-time data flow and improve user experience. This project highlights my skills in full-stack development and building production-ready systems.",
       image:
-        "https://i.postimg.cc/43nChff1/salmon-final-logo.png",
-        style: "rounded-full", // example style
+        "https://i.postimg.cc/NFTGzV2P/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375-1.png",
+        style: "", // example style
     },
   ];
   return (
@@ -43,7 +43,7 @@ function Projects({}: Props) {
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className={`h-24 ${project.style}`}
+              className={`h-42 ${project.style}`}
               src={project.image}
               alt={project.name}
             />
