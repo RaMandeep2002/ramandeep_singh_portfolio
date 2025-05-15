@@ -15,7 +15,7 @@ function Projects({}: Props) {
     {
       name: "Salmon Arm Taxi",
       summary:
-        "I contributed to the development of the Salmon Arm Taxi project, a real-time taxi booking platform. My work focused on building scalable backend APIs with Node.js and TypeScript, implementing driver-vehicle management, fare calculation, and shift scheduling features. I also integrated Redux Toolkit in the frontend using Next.js to manage real-time data flow and improve user experience. This project highlights my skills in full-stack development and building production-ready systems.",
+        "For this project, I created the frontend for both the website and the admin panel to manage operations. I also developed APIs using Nodejs (Typescript) and integrated them with Redux Toolkit for state management. Additionally, we provided APIs to the app developer to enable features such as starting and stopping shifts, as well as starting and ending rides, ensuring seamless integration between the admin panel and the driver app.",
       image:
         "https://i.postimg.cc/NFTGzV2P/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375-1.png",
         style: "", // example style
