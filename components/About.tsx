@@ -42,7 +42,7 @@ export default function About({ }: Props) {
                     md:w-56 md:h-80
                     xl:w-[400px] xl:h-[500px]
                     2xl:w-[500px] 2xl:h-[600px]
-                    rounded-full
+                    rounded-full md:rounded-lg
                     object-cover z-0
                     mt-[100px]
                     mx-auto md:mx-0

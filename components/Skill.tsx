@@ -19,21 +19,37 @@ function Skill({ directionLeft, image, technology, prof }: Props) {
                 }}
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, ease: "easeInOut" }}
-                className="rounded-full border border-gray-300 shadow-lg w-24 h-24 md:w-32 md:h-32 xl:w-40 xl:h-40 flex items-center justify-center">
+                className="rounded-full border border-gray-300 shadow-lg 
+                    w-16 h-16 
+                    sm:w-20 sm:h-20 
+                    md:w-28 md:h-28 
+                    xl:w-36 xl:h-36 
+                    flex items-center justify-center"
+            >
                 {/* Motion animation for the image */}
                 <img
-
                     src={image}
                     alt={technology}
-                    className="object-cover w-14 h-14 md:w-20 md:h-20 xl:w-24 xl:h-24 filter group-hover:grayscale duration-300 ease-in-out"
+                    className="object-cover 
+                        w-8 h-8 
+                        sm:w-12 sm:h-12 
+                        md:w-16 md:h-16 
+                        xl:w-20 xl:h-20 
+                        filter group-hover:grayscale duration-300 ease-in-out"
                 />
             </motion.div>
 
             {/* Hover overlay */}
-            <div className="absolute top-0 left-0 flex items-center justify-center w-24 h-24 md:w-32 md:h-32 xl:w-40 xl:h-40 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 rounded-full transition-opacity duration-300 ease-in-out z-10">
-                <div className="text-center">
-                    <p className="text-lg md:text-xl font-medium text-white">{technology}</p>
-                    <p className="text-2xl md:text-3xl font-bold text-white mt-2">
+            <div className="absolute top-0 left-0 flex items-center justify-center 
+                w-16 h-16 
+                sm:w-20 sm:h-20 
+                md:w-28 md:h-28 
+                xl:w-36 xl:h-36 
+                bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 rounded-full transition-opacity duration-300 ease-in-out z-10"
+            >
+                <div className="text-center px-1">
+                    <p className="text-xs sm:text-sm md:text-lg xl:text-xl font-medium text-white break-words">{technology}</p>
+                    <p className="text-base sm:text-lg md:text-2xl xl:text-3xl font-bold text-white mt-1 md:mt-2">
                         {prof}%
                     </p>
                 </div>

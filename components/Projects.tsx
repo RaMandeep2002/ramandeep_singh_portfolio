@@ -26,37 +26,37 @@ function Projects({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="relative z-0 mx-auto flex h-screen max-w-full flex-col items-center justify-evenly overflow-hidden text-left md:flex-row"
+      className="relative z-0 mx-auto flex min-h-screen max-w-full flex-col items-center justify-evenly overflow-hidden text-left"
     >
-      <h3 className="absolute top-24 text-2xl uppercase tracking-[20px] text-gray-500 ">
+      <h3 className="absolute top-16 sm:top-24 text-xl sm:text-2xl uppercase tracking-[12px] sm:tracking-[20px] text-gray-500">
         Projects
       </h3>
 
-      <div className="sanp-x scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 relative z-20 flex w-full snap-mandatory overflow-y-hidden overflow-x-scroll">
+      <div className="snap-x scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 relative z-20 flex w-full snap-mandatory overflow-y-hidden overflow-x-scroll">
         {projects.map((project, i) => (
           <div
             key={i}
-            className={`flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44 ${project.style}`}
+            className={`flex min-h-[80vh] sm:min-h-[70vh] md:min-h-[60vh] lg:min-h-[70vh] xl:min-h-[80vh] w-[90vw] sm:w-[80vw] md:w-[70vw] lg:w-[60vw] xl:w-[50vw] flex-shrink-0 snap-center flex-col items-center justify-center space-y-4 sm:space-y-6 p-4 sm:p-8 md:p-12 lg:p-16 xl:p-20 ${project.style}`}
           >
             <motion.img
-              initial={{ y: -300 }}
+              initial={{ y: -200 }}
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className={`h-42 ${project.style}`}
+              className={`w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl object-contain rounded-lg shadow-lg ${project.style}`}
               src={project.image}
               alt={project.name}
             />
 
-            <div className="space-y-18 max-w-6xl px-0 md:px-10">
-              <h4 className="text-center text-4xl font-semibold">
+            <div className="space-y-4 max-w-2xl px-2 sm:px-4 md:px-8">
+              <h4 className="text-center text-2xl sm:text-3xl md:text-4xl font-semibold">
                 <span className="underline decoration-[#F7AB0A]/50">
-                  Projects {i + 1} of {projects.length}:
+                  Project {i + 1} of {projects.length}:
                 </span>{" "}
                 {project.name}
               </h4>
 
-              <p className="text-center mt-4 text-xl md:text-left">
+              <p className="text-center mt-2 text-base sm:text-lg md:text-xl">
                 {project.summary}
               </p>
             </div>
@@ -64,7 +64,7 @@ function Projects({}: Props) {
         ))}
       </div>
 
-      <div className="absolute left-0 top-[30%] h-[500px] w-full -skew-y-12 bg-[#F7AB0A]/10" />
+      <div className="absolute left-0 top-[30%] h-[250px] sm:h-[350px] md:h-[400px] lg:h-[500px] w-full -skew-y-12 bg-[#F7AB0A]/10" />
     </motion.div>
   );
 }
