@@ -43,7 +43,7 @@ function Projects({}: Props) {
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className={`w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl object-contain rounded-lg shadow-lg ${project.style}`}
+              className={`w-18 max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl object-contain rounded-lg ${project.style}`}
               src={project.image}
               alt={project.name}
             />
