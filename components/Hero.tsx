@@ -48,7 +48,7 @@ export default function Hero({ }: Props) {
               restDelta: 0.001
             }
           }} className='text-sm uppercase text-gray-500 tracking-[10px]'>Full Stack DevloPer</motion.h2>
-        <h1 className='text-5xl lg:text-6xl md:text-3xl *:font-semibold px-10'>
+        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold px-4 sm:px-8 md:px-10">
           <span className="mr-3">{text}<Cursor cursorColor='#F7AB0A' cursorStyle="_" /></span>
         </h1>
         <motion.div

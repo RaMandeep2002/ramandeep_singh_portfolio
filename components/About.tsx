@@ -34,7 +34,24 @@ export default function About({ }: Props) {
                 viewport={{ once: false }}
                 transition={{ duration: 1.2 }}
                 src="https://i.postimg.cc/jj0My2Cr/20230602-092726-01-1.jpg"
-                className="sm:mb-0 md:mb-0 flex-shrink-0 w-32 h-32 sm:w-54 sm:h-54 sm-top-10 md:w-64 md:h-96 md:top-5 xl:w-[500px] xl:h-[600px] rounded-full md:rounded-lg object-cover z-0"
+                alt="Ramandeep Singh"
+                className="
+                    flex-shrink-0
+                    w-24 h-24
+                    sm:w-40 sm:h-40
+                    md:w-56 md:h-80
+                    xl:w-[400px] xl:h-[500px]
+                    2xl:w-[500px] 2xl:h-[600px]
+                    rounded-full
+                    object-cover z-0
+                    mt-[100px]
+                    mx-auto md:mx-0
+                    transition-all duration-300
+                "
+                // style={{
+                //     maxWidth: "100%",
+                //     height: "auto",
+                // }}
             />
 
             {/* Text Section */}
@@ -49,16 +66,16 @@ export default function About({ }: Props) {
                 }}
                 viewport={{ once: false }}
                 transition={{ duration: 1.2 }}
-                className="space-y-6 px-4 sm:px-6 md:px-10"
+                className="space-y-6 px-2 sm:px-6 md:px-10 w-full"
             >
-                <h4 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
+                <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">
                     Here is a{" "}
                     <span className="underline decoration-dotted decoration-[#F4B96F]">
                         Little
                     </span>{" "}
                     Background
                 </h4>
-                <p className="text-sm sm:text-base md:text-lg leading-relaxed sm:leading-relaxed">
+                <p className="text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed sm:leading-relaxed text-justify">
                     Aspiring Full Stack and Blockchain Developer with a solid foundation
                     in front-end technologies such as HTML, CSS, Bootstrap, and React.js.
                     Enthusiastic about designing and implementing responsive, visually
