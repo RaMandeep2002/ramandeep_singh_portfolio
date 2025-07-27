@@ -18,7 +18,7 @@ function Projects({}: Props) {
         "For this project, I created the frontend for both the website and the admin panel to manage operations. I also developed APIs using Nodejs (Typescript) and integrated them with Redux Toolkit for state management. Additionally, we provided APIs to the app developer to enable features such as starting and stopping shifts, as well as starting and ending rides, ensuring seamless integration between the admin panel and the driver app.",
       image:
         "https://i.postimg.cc/NFTGzV2P/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375-1.png",
-        style: "", // example style
+      style: "", // example style
     },
   ];
   return (
@@ -36,7 +36,7 @@ function Projects({}: Props) {
         {projects.map((project, i) => (
           <div
             key={i}
-               className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44"
+            className="flex h-screen w-screen flex-shrink-0 snap-center flex-col items-center justify-center space-y-5 p-20 md:p-44"
           >
             <motion.img
               initial={{ y: -200 }}
