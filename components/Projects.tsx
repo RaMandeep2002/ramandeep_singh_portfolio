@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "lucide-react";
 import React from "react";
 
 type Props = {};
@@ -9,6 +10,7 @@ function Projects({}: Props) {
       name: "StopHateAb",
       summary:
         "Developed a WordPress website using Elementor to promote awareness against hate activities. Integrated Contact Form 7 and eForm for seamless communication and data collection, ensuring a user-friendly and responsive design.",
+      link: "https://stophateab.ca/",
       image:
         "https://i.postimg.cc/4NmZMxnM/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375-2.png",
     },
@@ -18,6 +20,7 @@ function Projects({}: Props) {
         "For this project, I created the frontend for both the website and the admin panel to manage operations. I also developed APIs using Nodejs (Typescript) and integrated them with Redux Toolkit for state management. Additionally, we provided APIs to the app developer to enable features such as starting and stopping shifts, as well as starting and ending rides, ensuring seamless integration between the admin panel and the driver app.",
       image:
         "https://i.postimg.cc/NFTGzV2P/af7ca99b5a796d0698cf9121a4a0795b5022b6be-666x375-1.png",
+      link: "https://salmonarmtaxi.ca/",
       style: "", // example style
     },
   ];
@@ -51,7 +54,7 @@ function Projects({}: Props) {
             <div className="space-y-4 max-w-2xl px-2 sm:px-4 md:px-8">
               <h4 className="text-center text-2xl sm:text-3xl md:text-4xl font-semibold">
                 <span className="underline decoration-[#F7AB0A]/50">
-                  Project {i + 1} of {projects.length}:
+                  Project {i + 1}/{projects.length}:
                 </span>{" "}
                 {project.name}
               </h4>
@@ -59,6 +62,21 @@ function Projects({}: Props) {
               <p className="text-center mt-2 text-base sm:text-lg md:text-xl">
                 {project.summary}
               </p>
+              {project.link && (
+                <div className="flex justify-center mt-4">
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#F7AB0A]/90 to-yellow-400 px-6 py-2 text-white font-semibold shadow-lg hover:from-yellow-400 hover:to-[#F7AB0A]/90 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#F7AB0A]/70"
+                  >
+                    <span className="flex items-center justify-center w-6 h-6">
+                      <Link className="w-4 h-4 text-white" />
+                    </span> 
+                    <span className="tracking-wide">Visit Project</span>
+                  </a>
+                </div>
+              )}
             </div>
           </div>
         ))}
