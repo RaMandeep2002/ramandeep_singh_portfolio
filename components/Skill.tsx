@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Image from "next/image";
 import React from "react";
 
 type Props = {
@@ -27,9 +28,11 @@ function Skill({ directionLeft, image, technology, prof }: Props) {
                     flex items-center justify-center"
             >
                 {/* Motion animation for the image */}
-                <img
+                <Image
                     src={image}
-                    alt={technology}
+                    alt={technology ?? ""}
+                    width={80}
+                    height={80}
                     className="object-cover 
                         w-8 h-8 
                         sm:w-12 sm:h-12 
@@ -45,7 +48,7 @@ function Skill({ directionLeft, image, technology, prof }: Props) {
                 sm:w-20 sm:h-20 
                 md:w-28 md:h-28 
                 xl:w-36 xl:h-36 
-                bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 rounded-full transition-opacity duration-300 ease-in-out z-10"
+                bg-gradient-to-tr from-[#232526]/90 to-[#414345]/90 opacity-0 group-hover:opacity-100 rounded-full transition-all duration-300 ease-in-out z-20 shadow-2xl shadow-[#F7AB0A]/30"
             >
                 <div className="text-center px-1">
                     <p className="text-xs sm:text-sm md:text-lg xl:text-xl font-medium text-white break-words">{technology}</p>
