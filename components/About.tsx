@@ -13,12 +13,13 @@ export default function About({}: Props) {
       className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-6 md:px-10 justify-evenly mx-auto items-center"
     >
       {/* Heading */}
-      <h3 className="absolute top-16 sm:top-20 uppercase tracking-[15px] md:tracking-[20px] text-gray-500 text-xl sm:text-2xl">
+      <h3 className="absolute top-20 sm:top-24 uppercase tracking-[15px] sm:tracking-[20px] text-gray-500 text-xl sm:text-2xl">
         About
       </h3>
 
       {/* Background Design */}
-      <div className="w-full absolute top-[35%] bg-[#F7AB0A]/10 left-0 h-[350px] sm:h-[400px] -skew-y-12"></div>
+      <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[400px] -skew-y-12" />
+     
 
       <motion.div
         initial={{
