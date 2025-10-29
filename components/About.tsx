@@ -71,7 +71,7 @@ export default function About({}: Props) {
       >
         <h4 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">
           Here is a{" "}
-          <span className="underline decoration-dotted decoration-[#F4B96F]">
+          <span className="underline decoration-dotted decoration-[#F4B96F] text-orange-400">
             Little
           </span>{" "}
           Background

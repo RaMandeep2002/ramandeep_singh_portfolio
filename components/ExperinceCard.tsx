@@ -22,7 +22,7 @@ function ExperienceCard({
   summaryPoints,
 }: Props) {
   return (
-    <article className="flex flex-col items-center space-y-7 flex-shrink-0 snap-center rounded-lg bg-[#292929] p-10 ">
+    <article className="flex flex-col items-center space-y-7 flex-shrink-0 snap-center rounded-lg bg-[#292929] p-5 sm:p-7 md:p-8 lg:p-10 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
       {/* <motion.img
         initial={{ y: -100, opacity: 0 }}
         transition={{ duration: 1.2 }}

@@ -33,9 +33,36 @@ const Skills = ({ }: Props) => {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Skills
       </h3>
-      <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
+      <h3
+        className="absolute top-36 uppercase tracking-[3px] text-sm 
+                   bg-gradient-to-r from-[#F7AB0A] via-pink-500 to-purple-500 
+                   bg-[length:200%_100%] bg-clip-text text-transparent
+                   animate-gradient-x"
+        style={{
+          WebkitBackgroundClip: "text",
+          backgroundClip: "text",
+          color: "transparent",
+          backgroundSize: "200% 100%",
+          animation: "gradientMove 3s linear infinite"
+        }}
+      >
         Hover Over a Skill for Current Proficiency
       </h3>
+      <style>
+        {`
+        @keyframes gradientMove {
+          0% {
+            background-position: 0% 50%;
+          }
+          100% {
+            background-position: 100% 50%;
+          }
+        }
+        .animate-gradient-x {
+          animation: gradientMove 3s linear infinite;
+        }
+        `}
+      </style>
 
       {/* Background decoration */}
       <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[400px] -skew-y-12" />
